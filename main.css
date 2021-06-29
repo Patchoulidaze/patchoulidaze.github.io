@@ -1,0 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #FC41BB;
+}
+.navbar {
+    background: #FC41BB;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.nav-link {
+    color: black;
+}
+/* BG */
+.header {
+    border-top: 0em;
+    background-image: url('Assets/IMG_7080.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+/* company desc */
+.minFlavor {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.minFlavor h1 {
+    color: #FC41BB;
+    font-size: 60px;
+}
+.minFlavor p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+/* Button */
+.minFlavor button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 3;
+    color:#fff;
+    margin: 1em;
+}
+.minFlavor button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+    width: 100%;
+    
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+/* team */
+.background {
+    background: #FC41BB;
+    padding: 4em 0;
+}
+.team {
+    color: #000000;
+    padding: 4em 180px;
+}
+.team .card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+.team .card {
+    background:none;
+    border: solid black;
+ 
+}
+.team .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+/* staff images */
+.shrink1{
+    height: 10%;
+    width: 10%
+}
+
+/* media padding,general padding*/
+
+.padding{
+    padding: 4em;
+}
+
+
+#containerVid { width:100%;}
+/* #index_carousel { width:975px; margin-left:auto; margin-right:auto; top:10px;} */
+/* video { width:975px; border:2px solid #ccc;} */
+#vid_msg { color:#000; background-color:#fff; opacity:0.6; border-radius: 8px; margin-bottom:125px; font-size:32pt; }
+
+/* Vtuber Json table */
+.vTable {
+    width: 100%;
+}
+.vTable th {
+    background: #395c27;
+    font-weight: bold;
+    padding: 6px;
+}
+.vTable td {
+    background: #6ab446;
+    padding: 6px;
+    border:1px solid black
+}
+
+.vtuberImg{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+/* modal alert */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    scroll-behavior: smooth;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
